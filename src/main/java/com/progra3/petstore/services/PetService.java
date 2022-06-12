@@ -3,7 +3,9 @@ package com.progra3.petstore.services;
 import java.util.List;
 
 import com.progra3.petstore.entities.Pet;
+import org.springframework.stereotype.Service;
 
+@Service
 public interface PetService {
 	
 	List<Pet> listAll();
